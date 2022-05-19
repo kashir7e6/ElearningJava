@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ElBigTitleText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/text_big_title</item>
+        <item name="android:textColor">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="ElEditTextLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusBottomEnd">@dimen/txt_input_layout_border_raduis</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/txt_input_layout_border_raduis</item>
+        <item name="boxCornerRadiusTopStart">@dimen/txt_input_layout_border_raduis</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/txt_input_layout_border_raduis</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="errorTextColor">@color/error_color</item>
+        <item name="android:backgroundTint">@color/secondaryLightColor</item>
+        <item name="maxLines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorHint">@color/primaryTextColor</item>
+    </style>
+
+    <style name="ElNormalText" >
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+    <style name="ElNormalColoredText" parent="ElNormalText">
+        <item name="android:textColor">@color/secondaryDarkColor</item>
+    </style>
+</resources>

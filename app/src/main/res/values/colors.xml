@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primaryColor">#69efad</color>
+    <color name="primaryLightColor">#9fffdf</color>
+    <color name="primaryDarkColor">#2bbc7d</color>
+    <color name="secondaryColor">#42a5f5</color>
+    <color name="secondaryLightColor">#80d6ff</color>
+    <color name="secondaryDarkColor">#0077c2</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="backgroundColor">#f5f5f5</color>
+    <color name="editTextbckColor">#e0e0e0</color>
+    <color name="error_color">#cf6670</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
