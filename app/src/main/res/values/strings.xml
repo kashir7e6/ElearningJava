@@ -6,5 +6,10 @@
     <string name="forgot_txt">Forgot your password?</string>
     <string name="acc_question">Don\'t have account yet?</string>
     <string name="register_txt">Register for Free</string>
+    <string name="register">Register</string>
+    <string name="hint_email_verify">Confirm email</string>
+    <string name="hint_password_repeat">Repeat password</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_birthdate">Birthdate</string>
 
 </resources>

@@ -54,6 +54,7 @@
         android:hint="@string/hint_password"
         android:layout_marginTop="@dimen/margin_defualt"
         style="@style/ElEditTextLayout"
+        app:passwordToggleEnabled="true"
         app:layout_constraintEnd_toStartOf="@+id/guideline_right"
         app:layout_constraintStart_toStartOf="@+id/guideline_left"
         app:layout_constraintTop_toBottomOf="@+id/til_login_email">
@@ -62,6 +63,7 @@
             android:id="@+id/tiet_login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:backgroundTint="@color/editTextbckColor"/>
     </com.google.android.material.textfield.TextInputLayout>
 
